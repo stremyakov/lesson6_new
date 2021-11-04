@@ -17,7 +17,7 @@ class Road:
 
 
 _length = input("Enter length:  ")
-_width = input("Enter width:  ")
+_width = input("Enter width:  ")  #this is comment
 _Road = Road(_length, _width)
 _Weight = _Road.weight(1) # 1 cm
 print(f"Mass is ", _Weight)
